@@ -4,15 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Fayez Land</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/uikit@3.8/dist/css/uikit.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <script src="https://unpkg.com/@christianliebel/paint/dist/elements/index.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.8/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.8/dist/js/uikit-icons.min.js"></script>
 </head>
 <body>
-    <h1>hi im fayez</h1>
-    <button type="button" href="https://www.pcrf.net/" >Donate to Palestine</button>
-    <br><br>
-    <h1>Try some painting</h1>
-    <paint-app></paint-app>
+    <nav class="uk-navbar-container uk-light" uk-navbar>
+        <div class="uk-navbar-left uk-padding">
+            <ul class="uk-navbar-nav">
+                <a href="#offcanvas-usage" uk-toggle><span uk-icon="menu"></span></a>
+            </ul>
+        </div>
+        <div class="uk-navbar-right">
+            <ul class="uk-navbar-nav">
+                <li class="uk-active "><a class="uk-link-muted" href="https://www.pcrf.net/" target="_blank"><h3>donate to palestine</h3></a></li>
+            </ul>
+        </div>
+    </nav>
+    <div id="hero" class="top-wrap uk-position-relative uk-light">
+        <div class="uk-cover-container uk-flex uk-flex-middle uk-position-z-index" >
+            <div class="uk-container">
+                <div class="uk-text-center">
+                    <div>
+                        <h1 class="uk-text-primary">hi, <br> i'm fayez</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="offcanvas-usage" uk-offcanvas>
+        <div class="uk-offcanvas-bar">
+            <button class="uk-offcanvas-close" type="button" uk-close></button>
+            <h3>Title</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+    </div>
+
+    <div id="paint-section" class="uk-section">
+        <div class="uk-container">
+                <paint-app></paint-app>
+        </div>
+    </div>
 </body>
 </html>
