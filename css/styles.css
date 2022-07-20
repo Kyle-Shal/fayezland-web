@@ -3,7 +3,10 @@
 }
 #paint-section{
   background-color: #15A46C;
-
+}
+#paint-app{
+  width: 75rem;
+  height: 40rem;
 }
 .uk-navbar-container:not(.uk-navbar-transparent) {
     background: #216CC5;
@@ -52,3 +55,5 @@ large-font
     ".";
   grid-area: main;
 }
+
+
