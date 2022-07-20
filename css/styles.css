@@ -1,12 +1,17 @@
+html, body {
+  height: 100%;
+}
+
 #hero{
   background-color: #216CC5;
 }
 #paint-section{
   background-color: #15A46C;
+
 }
-#paint-app{
-  width: 75rem;
-  height: 40rem;
+.paint-app{
+  width: 100%;
+  min-height: 30rem;
 }
 .uk-navbar-container:not(.uk-navbar-transparent) {
     background: #216CC5;
