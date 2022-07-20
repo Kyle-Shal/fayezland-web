@@ -14,22 +14,11 @@
   src: url(/fonts/Poppins\ Black\ 900.ttf);
 }
 
-h1{
-  font-family: Poppins;
-  font-size: 8rem;
-}
-h2{
+.poppins-font-family{
   font-family: Poppins;
 }
-h3{
-  font-family: Poppins;
-}
-h4{
-  font-family: Poppins;
-}
-h5{
-  font-family: Poppins;
-}
+
+large-font
 
 .container {  display: grid;
   grid-template-columns: 1.2fr;
